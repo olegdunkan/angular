@@ -1,4 +1,6 @@
 general:
+  artifacts:
+    - "dist"
   branches:
     only:
       - dev
