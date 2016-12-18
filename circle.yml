@@ -1,3 +1,8 @@
+general:
+  branches:
+    only:
+      - dev
+      
 machine:
   node:
     version: 5.4.1
@@ -8,4 +13,4 @@ dependencies:
 
 test:
   override:
-    - gulp lint
+    - gulp build.sh
